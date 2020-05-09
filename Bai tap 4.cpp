@@ -15,7 +15,7 @@ int main(){
 	if(a+b>c&& b+c>a &&c+a>b){
 	printf("Ba so nay lap thanh so do ba canh tam giac\n ");
 	p=a+b+c;
-	p1=(a+b+c)/2;
+	p1=(float)(a+b+c)/2;
 	s=(float)sqrt(p1*(p1-a)*(p1-b)*(p1-c));
 	printf("Chu vi cua tam giac co so do cac canh %d %d %d la %d\n",a,b,c,p);
 	printf("Dien tich cua tam giac co so do cac canh %d %d %d la %f\n",a,b,c,s);
